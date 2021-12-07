@@ -1,0 +1,28 @@
+#from
+#https://github.com/github/gitignore/blob/master/Global/Vim.gitignore
+#swap
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+# session
+Session.vim
+# temporary
+.netrwhist
+*~
+# auto-generated tag files
+tags
+
+# no object file from compiling
+*.o
+**/*.o
+**/*.so
+**/*.a
+
+# no testing binaries
+tests/*
+!tests/*.c
+!tests/*.h
+
+# only stage source code and internal headers in libvl subfolder
+libvl/*
+!libvl/*.c
+!libvl/*.h
